@@ -1,0 +1,55 @@
+/* Estilos gerais da página. */
+body {
+  background-color: lightgray;
+}
+
+/* Título principal e subtítulo do evento. */
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+header > h2 {
+  text-transform: uppercase;
+}
+
+/* Apresentação do evento. */
+.apresentacao {
+  text-align: justify;
+  text-indent: 25px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.apresentacao::first-letter {
+  color: red;
+}
+
+/* Lista de minicursos com marcadores quadrados. */
+ul {
+  list-style-type: square;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+/* Estados visuais dos links de navegação. */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Seletor de ID para destacar a seção inicial. */
+#inicio {
+  padding: 10px;
+}
